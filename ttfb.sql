@@ -25,7 +25,7 @@ SELECT DISTINCT
    WHEN platform = 'flywheel' THEN 'Flywheel'
    WHEN platform = 'weebly' THEN 'Weebly'
    WHEN platform = 'dps/' THEN 'GoDaddy Website Builder'
-   WHEN platform = 'tuonetti' THEN 'Tuonetti'
+   WHEN platform = 'Tuonetti' THEN 'Tuonetti'
    ELSE NULL
   END AS platform,
   client,
